@@ -1,8 +1,9 @@
-# 🌸 Iris Flower Classification — KNN & Model Deployment
+# 🌸 Iris Flower Classification using Machine Learning
+### KNN, SVM, Model Evaluation & Flask API Deployment
 
-**Artificial Intelligence Internship – Project 2**
+Developed as the **second project** of my **Artificial Intelligence Internship at DecodeLabs**, this project demonstrates a complete end-to-end machine learning workflow—from data preprocessing and model training to evaluation and deployment using Flask.
 
-A complete machine learning workflow on the classic Iris dataset: data exploration, KNN classification, model comparison, hyperparameter tuning, and deployment as a REST API using Flask.
+
 
 ## 📊 Project Overview
 
@@ -42,6 +43,17 @@ Install dependencies with:
 pip install -r requirements.txt
 ```
 
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Flask
+- Joblib
+  
 ## ▶️ How to Run
 
 ### 1. Run the training/analysis script
@@ -79,6 +91,20 @@ Expected response:
 - Cross-validation used to confirm consistency across folds
 - Final deployed model: **SVM**, chosen after comparing KNN, Logistic Regression, SVM, and Decision Tree
 
+## 📊 Results
+
+- Achieved high classification accuracy on the Iris dataset.
+- Compared KNN, Logistic Regression, Decision Tree, and SVM models.
+- Selected the best-performing model based on evaluation metrics.
+- Successfully deployed the trained model as a REST API using Flask.
+
+## 🚀 Future Improvements
+
+- Web interface using HTML/CSS
+- Docker deployment
+- Cloud deployment (Render or Railway)
+- Support for batch predictions
+
 ## 🧠 Key Concepts Demonstrated
 
 - Supervised classification
@@ -89,10 +115,12 @@ Expected response:
 - Model persistence (joblib)
 - REST API deployment (Flask)
 
-## 👤 Author
+## 👩‍💻 Author
 
-*Nahah Butt*
+**Nahah Butt**
+
+Artificial Intelligence Intern @ DecodeLabs
 
 ## 📄 License
-Second Project
-This project is for educational purposes as part of an AI internship assignment.
+
+This project was developed for educational purposes as the **second project** of my Artificial Intelligence Internship at DecodeLabs.
